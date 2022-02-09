@@ -25,29 +25,16 @@ I used Linear , Ridge and Lasso regression to determine the coefficients and alp
 
 
 ## Technologies Used
+Python coding
 import warnings
 warnings.filterwarnings('ignore')
-import os
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
-from sklearn.model_selection import train_test_split
-import datetime
-import scipy.stats as stats
-from sklearn.preprocessing import StandardScaler
-import statsmodels.api as sm
-from statsmodels.stats.outliers_influence import variance_inflation_factor
-from statsmodels.formula.api import ols
-from sklearn.model_selection import KFold
-from sklearn.model_selection import cross_val_score
-from sklearn.model_selection import GridSearchCV
-
-from sklearn.feature_selection import RFE
-from sklearn.linear_model import LinearRegression
-from sklearn.linear_model import Ridge
-from sklearn.linear_model import Lasso
-
+sklearn
+seaborn
+scipy.stats
+statsmodels
+LinearRegression
+Ridge
+Lasso
 # importing metrics 
 
 from sklearn import metrics
