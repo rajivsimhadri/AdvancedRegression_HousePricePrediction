@@ -10,11 +10,11 @@
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-The company wants to know:
-Which variables are significant in predicting the price of a house, and
-How well those variables describe the price of a house.
-Also, determine the optimal value of lambda for ridge and lasso regression.
-House.csv is used to predict the price.
+1) The company wants to know:
+2) Which variables are significant in predicting the price of a house, and
+3) How well those variables describe the price of a house.
+4) Also, determine the optimal value of lambda for ridge and lasso regression.
+   House.csv is used to predict the price.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
@@ -25,31 +25,31 @@ I used Linear , Ridge and Lasso regression to determine the coefficients and alp
 
 
 ## Technologies Used
-Python coding
-import warnings
-warnings.filterwarnings('ignore')
-sklearn
-seaborn
-scipy.stats
-statsmodels
-LinearRegression
-Ridge
-Lasso
+* Python coding
+* import warnings
+ warnings.filterwarnings('ignore')
+* sklearn
+* seaborn
+* scipy.stats
+* statsmodels
+* LinearRegression
+* Ridge
+* Lasso
 # importing metrics 
 
-from sklearn import metrics
-from statsmodels.stats.outliers_influence import variance_inflation_factor
-from sklearn.metrics import r2_score
-from sklearn.metrics import mean_squared_error
+* from sklearn import metrics
+* from statsmodels.stats.outliers_influence import variance_inflation_factor
+* from sklearn.metrics import r2_score
+* from sklearn.metrics import mean_squared_error
 
 # Set max rows and columns display options
-pd.set_option("display.max_rows",10000)
-pd.set_option("display.max_columns",500)
+* pd.set_option("display.max_rows",10000)
+* pd.set_option("display.max_columns",500)
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 ## Acknowledgements
-I are required to model the price of houses with the available independent variables. This model will then be used by the management to understand how exactly the prices vary with the variables. They can accordingly manipulate the strategy of the firm and concentrate on areas that will yield high returns. Further, the model will be a good way for management to understand the pricing dynamics of a new market.
+I am required to model the price of houses with the available independent variables. This model will then be used by the management to understand how exactly the prices vary with the variables. They can accordingly manipulate the strategy of the firm and concentrate on areas that will yield high returns. Further, the model will be a good way for management to understand the pricing dynamics of a new market.
 
 
 ## Contact
