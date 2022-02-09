@@ -35,14 +35,14 @@ I used Linear , Ridge and Lasso regression to determine the coefficients and alp
 * LinearRegression
 * Ridge
 * Lasso
-# importing metrics 
+### importing metrics 
 
 * from sklearn import metrics
 * from statsmodels.stats.outliers_influence import variance_inflation_factor
 * from sklearn.metrics import r2_score
 * from sklearn.metrics import mean_squared_error
 
-# Set max rows and columns display options
+### Set max rows and columns display options
 * pd.set_option("display.max_rows",10000)
 * pd.set_option("display.max_columns",500)
 
